@@ -1,0 +1,109 @@
+@charset "UTF-8";
+
+body {
+  background-image: linear-gradient(grey, white);
+  background-repeat: no-repeat;
+}
+
+.block {
+  display: block;
+  margin-top: 3px;
+}
+
+nav {
+  border-bottom: 5px black solid;
+}
+
+nav li {
+  display: inline;
+}
+
+nav a {
+  display: inline-block;
+  text-decoration: none;
+  text-align: center;
+  background-color: white;
+  color: black;
+  width: 10%;
+  line-height: 3;
+  margin-right: 10px;
+  border-radius: 10px;
+  font-family: arial;
+}
+
+nav a:hover {
+  background-color: orange;
+}
+
+h1 {
+  text-align: center;
+  font-family: arial;
+  font-variant: small-caps;
+  text-shadow: 1px 1px white;
+}
+
+#right {
+  float: right;
+  margin-right: 10%;
+  margin-top: 5%;
+}
+
+.left {
+  float: left;
+  margin-left: 10%;
+}
+
+#bottom {
+  margin-top: 5%;
+  margin-bottom: 1%;
+}
+
+img {
+  border: 5px darkblue dotted;
+}
+
+footer {
+  clear: both;
+  border-top: 5px black solid;
+  text-align: center;
+}
+
+form {
+  width: 60%;
+  margin: auto;
+  border: 3px grey solid;
+  border-radius: 5px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  padding: 5px;
+  background-color: lightgrey;
+}
+
+table, th, td {
+  border: 2px grey solid;
+  font-family: arial;
+}
+
+table {
+  width: 100%;
+  margin-bottom: 1%;
+  border: 3px black solid;
+  border-radius: 5px;
+  background-color: lightgrey;
+}
+
+td {
+  width: 10%;
+}
+
+td p {
+  margin: 5px;
+}
+
+td p:first-child {
+  font-weight: bold;
+}
+
+th {
+  background-color: darkgrey;
+}
